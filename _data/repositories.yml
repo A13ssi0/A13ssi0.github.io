@@ -1,14 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - A13ssi0
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - A13ssi0/gTec_EEGpipeline
+  - A13ssi0/fgmdm_riemann
+  - A13ssi0/riemann_utils
+  - A13ssi0/py_utils
+
+  # - jekyll/jekyll
+  # - twbs/bootstrap
+  # - jquery/jquery
+  # - FortAwesome/Font-Awesome
+  # - mathjax/MathJax
+  # - jpswalsh/academicons
