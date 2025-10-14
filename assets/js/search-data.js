@@ -32,10 +32,10 @@ ninja.data = [{
           },
         },{id: "nav-experience",
           title: "Experience",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/experience/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
