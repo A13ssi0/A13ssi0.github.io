@@ -9,6 +9,10 @@ hide_title: true
 
 ---
 
+periodo all'estero vu
+
+---
+
 ## Projects
 
 wearable technologies
