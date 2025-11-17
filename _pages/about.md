@@ -1,15 +1,14 @@
 ---
 layout: about
-title: About
+title: About Me
 permalink: /
 subtitle: PhD In Information Engineering &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Bioengineer &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  University of Padova
           <br><em>Engineer by training, problem solver by instinct, and curious mind by default </em>
 # <a href='#'>Affiliations</a>.\n
 #           Address. Contacts. Motto. Etc.
-
 profile:
   align: right
-  image: me.jpg
+  image: me.png
   image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -38,7 +37,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 <br>
 
-Core Summary — What You Do
+<!-- Core Summary — What You Do
 Give a high-level view of your academic focus and professional identity.
 Make it one compact paragraph (3–4 lines).
 
@@ -91,4 +90,4 @@ Let’s connect if you think biology and computation have more to say together.
 
 -------------------------
 -------------------------
-
+ -->
