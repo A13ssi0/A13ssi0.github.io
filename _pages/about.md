@@ -8,7 +8,7 @@ subtitle: PhD In Information Engineering &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp
 #           Address. Contacts. Motto. Etc.
 profile:
   align: right
-  image: me.png
+  image: me2.png
   image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
