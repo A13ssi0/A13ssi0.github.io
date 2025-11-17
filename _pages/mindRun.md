@@ -100,7 +100,7 @@ By studying changes in brain activity during BCI training, we hope to make these
     <li><strong>Repetition:</strong> 12 sessions spaced by at least ~48 hours</li>
     <li><strong>Max Duration:</strong> Around 90 minutes (including setup and breaks; actual duration varies by performance)</li>
     <li><strong>Location:</strong> NU Building</li>
-    <li><strong>Requirements:</strong> 18 years or older, no neurological disorders</li>
+    <li><strong>Requirements:</strong> 18 years or older, no neurological disorders, no prior experience in motor imagery BCI</li>
     <li><strong>Compensation:</strong> €240 (€20 per session) after completing all acquisitions</li>
   </ul>
 </div>
@@ -109,7 +109,7 @@ By studying changes in brain activity during BCI training, we hope to make these
 
 ## 💬 Participate in MindRun
 
-<p>If you’d like to <strong>take part</strong> in the project or if you have any <strong>questions</strong>, click below to open the participation form. You’ll be contacted as soon as possible.</p>
+<p>If you’d like to <strong>take part</strong> in the project or if you have any <strong>questions</strong>, click below to open the participation form (If you have difficulty opening it, here is the <a href="https://forms.gle/hSGPTxBsRvjKjajB9" target="_blank">link</a>). You’ll be contacted as soon as possible.</p>
 
 <div align="center" class="fade-in">
   <button 
@@ -121,7 +121,7 @@ By studying changes in brain activity during BCI training, we hope to make these
 </div>
 
 <div id="formContainer" class="fade-in" style="display: none; margin-top: 30px; text-align: center;">
-  <iframe src="https://forms.gle/6joZwfQQKzD5rZsf8?embedded=true"
+  <iframe src="https://forms.gle/hSGPTxBsRvjKjajB9?embedded=true"
           width="640" height="800" frameborder="0" marginheight="0" marginwidth="0"
           style="border-radius: 10px; box-shadow: 0 0 25px rgba(0,0,0,0.15);">
     Loading…
