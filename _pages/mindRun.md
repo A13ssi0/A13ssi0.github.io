@@ -38,18 +38,18 @@ strong {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
 }
-@media (max-width: 768px) {
-  .about-row {
-    display: block !important;
+
+
+  .about-row { display:flex; align-items:center; gap:40px; flex-wrap:nowrap; box-sizing:border-box; width:100%; }
+  .about-text { flex: 1 1 calc(60% - 20px); min-width:280px; box-sizing:border-box; }
+  .about-img  { flex: 1 1 calc(40% - 20px); min-width:220px; box-sizing:border-box; text-align:center; }
+  .about-img img { width:100%; max-width:420px; height:auto; display:inline-block; border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,0.2); }
+
+  @media (max-width:768px) {
+    .about-row { display:block !important; flex-wrap:wrap; }
+    .about-text, .about-img { width:100% !important; min-width:0; text-align:center !important; }
+    .about-img img { max-width:90%; }
   }
-  .about-text, .about-img {
-    width: 100% !important;
-    text-align: center !important;
-  }
-  .about-img img {
-    width: 90% !important;
-  }
-}
 </style>
 
 <div align="center" style="margin-top: 90px; margin-bottom: 60px;">
@@ -62,12 +62,9 @@ strong {
 
 ## 🚀 About the Project
 
-<div class="about-row fade-in" style="display: flex; align-items: center; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
-
-  <div class="about-text" style="flex: 1; min-width: 530px;">
-    <p>
-      Step into the future of gaming and neuroscience!
-    </p>
+<div class="about-row">
+  <div class="about-text">
+    <p>Step into the future of gaming and neuroscience!</p>
 
     <p>
       We are looking for volunteers to participate in our research on how the human mind can directly control and adapt within a videogame through a collaborative Brain Computer Interface (<strong>BCI</strong>). In this study, participants play a neurofeedback game where EEG sensors translate brain signals into in-game actions allowing control purely through thought.
@@ -78,8 +75,8 @@ strong {
     </p>
   </div>
 
-  <div class="about-img" style="flex: 1; text-align: center;">
-    <img src="/assets/img/mindrun.png" alt="MindRun Gameplay" width="80%" style="border-radius: 12px; box-shadow: 0 0 25px rgba(0,0,0,0.2);">
+  <div class="about-img">
+    <img src="/assets/img/mindrun.png" alt="MindRun Gameplay">
   </div>
 </div>
 
@@ -97,7 +94,7 @@ By studying changes in brain activity during BCI training, we hope to make these
 <div class="fade-in">
   <ul>
     <li><strong>Task:</strong> Play a neurofeedback game using motor imagery</li>
-    <li><strong>Repetition:</strong> 12 sessions spaced by at least ~48 hours</li>
+    <li><strong>Repetition:</strong> 12 sessions, each scheduled between 2 and 4 days apart.</li>
     <li><strong>Max Duration:</strong> Around 90 minutes (including setup and breaks; actual duration varies by performance)</li>
     <li><strong>Location:</strong> NU Building</li>
     <li><strong>Requirements:</strong> 18 years or older, no neurological disorders, no prior experience in motor imagery BCI</li>
