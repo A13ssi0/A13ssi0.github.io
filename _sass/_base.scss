@@ -538,6 +538,80 @@ footer.sticky-bottom {
 
 // Repositories
 
+.repositories {
+  align-items: stretch !important;
+}
+
+.repo {
+  width: 100%;
+
+  .repo-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 155px;
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    text-align: left;
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-text-color);
+      text-decoration: none;
+      transform: translateY(-1px);
+
+      .repo-card-header {
+        color: var(--global-theme-color);
+      }
+    }
+
+    p {
+      margin-top: 0.65rem;
+      margin-bottom: 0.85rem;
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+  }
+
+  .repo-profile-card {
+    min-height: 125px;
+  }
+
+  .repo-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--global-text-color);
+    font-weight: 700;
+
+    i {
+      font-size: 1.15rem;
+    }
+  }
+
+  .repo-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: auto;
+
+    span {
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      padding: 0.12rem 0.55rem;
+      color: var(--global-text-color-light);
+      font-size: 0.75rem;
+      line-height: 1.4;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
@@ -736,6 +810,19 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
+        max-width: 140px;
+        height: auto;
+        object-fit: contain;
+        border: 1px solid var(--global-divider-color);
+        box-shadow: none;
+      }
+
+      .preview.medium-zoom-image--opened {
+        max-width: none;
+        height: auto;
+        object-fit: contain;
+        border: 0;
       }
 
       .abbr {
@@ -808,9 +895,38 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
-        a.award.btn {
-          border-color: var(--global-highlight-color);
-        }
+      }
+
+      .award-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+        margin-top: 0.45rem;
+        margin-bottom: 0.35rem;
+      }
+
+      .pub-badge {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        border: 1px solid var(--global-divider-color);
+        padding: 0.18rem 0.68rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        line-height: 1.35;
+        white-space: normal;
+      }
+
+      .pub-badge.award {
+        color: #8a5a00;
+        background-color: #fff2bf;
+        border-color: #ffe08a;
+      }
+
+      .pub-badge.distinction {
+        color: #165a72;
+        background-color: #e5f5fb;
+        border-color: #b9e1ee;
       }
 
       .badges {

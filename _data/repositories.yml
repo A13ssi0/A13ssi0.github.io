@@ -9,6 +9,32 @@ github_repos:
   - A13ssi0/riemann_utils
   - A13ssi0/py_utils
 
+repo_metadata:
+  A13ssi0/gTec_EEGpipeline:
+    description: Tools and scripts for EEG data processing with g.tec systems.
+    tags:
+      - EEG
+      - Signal processing
+      - BCI
+  A13ssi0/fgmdm_riemann:
+    description: Riemannian geometry methods for EEG and motor imagery classification.
+    tags:
+      - Riemannian geometry
+      - Machine learning
+      - MI-BCI
+  A13ssi0/riemann_utils:
+    description: Utility functions for Riemannian analysis workflows.
+    tags:
+      - Python
+      - Utilities
+      - Research code
+  A13ssi0/py_utils:
+    description: General-purpose Python utilities used across research projects.
+    tags:
+      - Python
+      - Utilities
+      - Workflow
+
   # - jekyll/jekyll
   # - twbs/bootstrap
   # - jquery/jquery

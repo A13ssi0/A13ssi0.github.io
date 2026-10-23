@@ -185,13 +185,22 @@
       {{ entry.note | strip }}
     </div>
 
+    {% if entry.presentation or entry.award_name or entry.award2_name %}
+      <div class="award-badges">
+        {% if entry.presentation %}
+          <span class="pub-badge distinction">{{ entry.presentation }}</span>
+        {% endif %}
+        {% if entry.award_name %}
+          <span class="pub-badge award">{{ entry.award_name }}</span>
+        {% endif %}
+        {% if entry.award2_name %}
+          <span class="pub-badge award">{{ entry.award2_name }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
-      {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-        </a>
-      {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
@@ -203,6 +212,9 @@
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      {% endif %}
+      {% if entry.project %}
+        <a href="{{ entry.project | relative_url }}" class="btn btn-sm z-depth-0" role="button">Project</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -232,6 +244,9 @@
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+      {% endif %}
+      {% if entry.workshop %}
+        <a href="{{ entry.workshop }}" class="btn btn-sm z-depth-0" role="button">Workshop</a>
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>

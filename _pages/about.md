@@ -2,7 +2,7 @@
 layout: about
 title: About Me
 permalink: /
-subtitle: PhD In Information Engineering &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Bioengineer &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  University of Padova
+subtitle: PhD in Information Engineering &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  Bioengineer &nbsp;&nbsp;&nbsp;  | &nbsp;&nbsp;&nbsp;  University of Padova
           <br><em>Engineer by training, problem solver by instinct, and curious mind by default </em>
 # <a href='#'>Affiliations</a>.\n
 #           Address. Contacts. Motto. Etc.

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">Riemannian learning placeholder</title>
+  <desc id="desc">Abstract curves and points suggesting geometry and longitudinal learning.</desc>
+  <rect width="400" height="300" fill="#f6f8fa"/>
+  <path d="M38 224 C95 104, 164 96, 220 160 S318 220, 362 74" fill="none" stroke="#2f6f9f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M44 238 C112 182, 164 220, 230 124 S316 92, 354 142" fill="none" stroke="#77a889" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="92" cy="152" r="16" fill="#c94f4f"/>
+  <circle cx="178" cy="143" r="12" fill="#2f6f9f"/>
+  <circle cx="262" cy="188" r="14" fill="#77a889"/>
+  <circle cx="326" cy="107" r="10" fill="#1f2933"/>
+  <text x="34" y="48" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2933">MI-BCI</text>
+  <text x="34" y="78" font-family="Arial, sans-serif" font-size="16" fill="#5b6770">learning geometry</text>
+</svg>
