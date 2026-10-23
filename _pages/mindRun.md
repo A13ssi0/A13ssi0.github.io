@@ -96,9 +96,24 @@ By studying changes in brain activity during BCI training, we hope to make these
     <li><strong>Task:</strong> Play a neurofeedback game using motor imagery</li>
     <li><strong>Repetition:</strong> 12 sessions, each scheduled between 2 and 4 days apart.</li>
     <li><strong>Max Duration:</strong> Around 90 minutes (including setup and breaks; actual duration varies by performance)</li>
-    <li><strong>Location:</strong> NU Building</li>
+    <li><strong>Total Duration:</strong> At least 3 sessions per week, so the study is normally completed within about 4 weeks from the first session</li>
+    <li><strong>Location:</strong> NU Building, 11th floor, room 11A-66</li>
+    <li><strong>Language:</strong> English</li>
     <li><strong>Requirements:</strong> 18 years or older, no neurological disorders, no prior experience in motor imagery BCI</li>
     <li><strong>Compensation:</strong> €240 (€20 per session) after completing all acquisitions</li>
+  </ul>
+</div>
+
+---
+
+## 📋 Participation Information
+
+<div class="fade-in">
+  <ul>
+    <li><strong>Payments and processing time:</strong> You will receive €240 as compensation for participating in this study, paid by vouchers sent via email within 2 weeks of completing the final session. To receive the full compensation, you must complete all 12 experimental sessions. Participants who withdraw before completing all 12 sessions will not receive payment. The only exception applies to participants assigned to a dyadic (cooperative) condition: if your paired participant withdraws and this prevents you from completing the remaining sessions, you will be compensated proportionally to the number of sessions you have completed.</li>
+    <li><strong>Sign-ups and session scheduling:</strong> Before taking part, please read the study information and register through this page by completing the availability form below. Based on the availability you submit, the researcher will contact you as soon as possible with a proposed calendar for all 12 experimental sessions. You will be able to review the proposed schedule and request changes to specific dates or times if you already know you will not be available.</li>
+    <li><strong>Rescheduling:</strong> Sessions may be rescheduled or postponed only for valid reasons, after contacting the researchers and receiving approval for the change.</li>
+    <li><strong>Unexcused no-shows:</strong> Sessions start right on time, and access to the lab after the start time will be denied. If you have registered but cannot make it, make sure to inform the researchers before your session starts; otherwise, you will be marked as an Unexcused No-Show. After 3 Unexcused No-Shows, your registration will be deactivated and you will not be able to participate in any further studies.</li>
   </ul>
 </div>
 
