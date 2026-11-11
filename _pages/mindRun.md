@@ -123,6 +123,8 @@ By studying changes in brain activity during BCI training, we hope to make these
 
 <p>If you’d like to <strong>take part</strong> in the project or if you have any <strong>questions</strong>, click below to open the participation form (If you have difficulty opening it, here is the <a href="https://forms.gle/hSGPTxBsRvjKjajB9" target="_blank">link</a>). You’ll be contacted as soon as possible.</p>
 
+<p><strong><u>If you are interested, please complete the form as soon as possible.</u></strong> If you applied through the VBL website, <strong><u>you have 24 hours from your VBL application to complete the form</u></strong>; after that, your place may be offered to another participant.</p>
+
 <div align="center" class="fade-in">
   <button 
     onclick="document.getElementById('formContainer').style.display = 
