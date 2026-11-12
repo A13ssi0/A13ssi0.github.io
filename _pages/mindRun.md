@@ -100,7 +100,7 @@ By studying changes in brain activity during BCI training, we hope to make these
     <li><strong>Location:</strong> NU Building, 11th floor, room 11A-66</li>
     <li><strong>Language:</strong> English</li>
     <li><strong>Requirements:</strong> 18 years or older, no neurological disorders, no prior experience in motor imagery BCI</li>
-    <li><strong>Compensation:</strong> €240 (€20 per session) after completing all acquisitions</li>
+    <li><strong>Compensation:</strong> €240 in vouchers, sent by email within 2 weeks of completing all 12 sessions (see Participation Information for details)</li>
   </ul>
 </div>
 
