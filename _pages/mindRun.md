@@ -71,7 +71,7 @@ strong {
     </p>
 
     <p>
-      Players will be assigned randomly to play <strong>individually or cooperatively</strong>, joining forces to complete shared tasks using synchronized brain activity.
+      Players will be assigned randomly to play <strong>individually or cooperatively</strong>, joining forces to complete shared tasks using synchronized brain activity. 
     </p>
   </div>
 
